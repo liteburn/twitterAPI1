@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_4f8d66a940984182a6ce6eef93d7ef0f {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_4f8d66a940984182a6ce6eef93d7ef0f" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_4f8d66a940984182a6ce6eef93d7ef0f = L.map(
+        'map_4f8d66a940984182a6ce6eef93d7ef0f', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_ad1eabbec22d43f2940d077fe9ca347c = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+    
+        var marker_d613046470c84b71bcb55c427e2567d9 = L.marker(
+            [50.94166946411133, 6.955160140991211],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_22b88be799cf4fbf88aacd0d74cedcb4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d613046470c84b71bcb55c427e2567d9.setIcon(icon_22b88be799cf4fbf88aacd0d74cedcb4);
+            
+    
+            var popup_79548d4059184e8280d4c1b578c01c3a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3968625d99664440842c3272c6abedc7 = $(`<div id="html_3968625d99664440842c3272c6abedc7" style="width: 100.0%; height: 100.0%;">ESL Shop||</div>`)[0];
+                popup_79548d4059184e8280d4c1b578c01c3a.setContent(html_3968625d99664440842c3272c6abedc7);
+            
+
+            marker_d613046470c84b71bcb55c427e2567d9.bindPopup(popup_79548d4059184e8280d4c1b578c01c3a)
+            ;
+
+            
+        
+    
+        var marker_eee64bcdd7a646818ce8db874ecfa253 = L.marker(
+            [43.69638143310547, 7.266469819641113],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_b974918276824c529b726242bf9966b8 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eee64bcdd7a646818ce8db874ecfa253.setIcon(icon_b974918276824c529b726242bf9966b8);
+            
+    
+            var popup_fe04bd25e97d4b0d9fa88d28ace51473 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ca2757a59a204ee79400a02df478f115 = $(`<div id="html_ca2757a59a204ee79400a02df478f115" style="width: 100.0%; height: 100.0%;">betway esports||</div>`)[0];
+                popup_fe04bd25e97d4b0d9fa88d28ace51473.setContent(html_ca2757a59a204ee79400a02df478f115);
+            
+
+            marker_eee64bcdd7a646818ce8db874ecfa253.bindPopup(popup_fe04bd25e97d4b0d9fa88d28ace51473)
+            ;
+
+            
+        
+    
+        var marker_5f312d16bc5741648a477f545a6aeab8 = L.marker(
+            [43.8576104309082, -79.3921110961914],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_46f30fa0091c481a8ab390bdc038ec25 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f312d16bc5741648a477f545a6aeab8.setIcon(icon_46f30fa0091c481a8ab390bdc038ec25);
+            
+    
+            var popup_d79235a8f6124ff692ea7abbc54206eb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2cb0b815bce74894b0d0936a6dd4444a = $(`<div id="html_2cb0b815bce74894b0d0936a6dd4444a" style="width: 100.0%; height: 100.0%;">H4X||</div>`)[0];
+                popup_d79235a8f6124ff692ea7abbc54206eb.setContent(html_2cb0b815bce74894b0d0936a6dd4444a);
+            
+
+            marker_5f312d16bc5741648a477f545a6aeab8.bindPopup(popup_d79235a8f6124ff692ea7abbc54206eb)
+            ;
+
+            
+        
+    
+        var marker_3193c10d014c492ea96f59bbc6e6383f = L.marker(
+            [39.92010361938477, -86.28149931640625],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_23834c26d1c24cfb897575dc9a8af3d7 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3193c10d014c492ea96f59bbc6e6383f.setIcon(icon_23834c26d1c24cfb897575dc9a8af3d7);
+            
+    
+            var popup_41c6ab89357241bbb4d3f7b6e60bc4e7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_40bbc0f2ff004f82919ee53a400186d4 = $(`<div id="html_40bbc0f2ff004f82919ee53a400186d4" style="width: 100.0%; height: 100.0%;">paysafecard||</div>`)[0];
+                popup_41c6ab89357241bbb4d3f7b6e60bc4e7.setContent(html_40bbc0f2ff004f82919ee53a400186d4);
+            
+
+            marker_3193c10d014c492ea96f59bbc6e6383f.bindPopup(popup_41c6ab89357241bbb4d3f7b6e60bc4e7)
+            ;
+
+            
+        
+    
+        var marker_f5db55406b7f47e88efb7ba5e843cd79 = L.marker(
+            [39.96239035644531, -83.00234658203125],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_97a5c9220e7b49558fb0efeca8062474 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5db55406b7f47e88efb7ba5e843cd79.setIcon(icon_97a5c9220e7b49558fb0efeca8062474);
+            
+    
+            var popup_776405135884467f91846980a5b2be1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_963aebc574fd4ca8ad075993fbb3ca4a = $(`<div id="html_963aebc574fd4ca8ad075993fbb3ca4a" style="width: 100.0%; height: 100.0%;">NEEDforSEAT® International||</div>`)[0];
+                popup_776405135884467f91846980a5b2be1e.setContent(html_963aebc574fd4ca8ad075993fbb3ca4a);
+            
+
+            marker_f5db55406b7f47e88efb7ba5e843cd79.bindPopup(popup_776405135884467f91846980a5b2be1e)
+            ;
+
+            
+        
+    
+        var marker_dd5c85687a3145c095182f67200ecefd = L.marker(
+            [37.356289184570315, -121.95459338378906],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_fb76233717954dbcaebcd2b3276fa03f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dd5c85687a3145c095182f67200ecefd.setIcon(icon_fb76233717954dbcaebcd2b3276fa03f);
+            
+    
+            var popup_5169af55e5174c40babf496396012398 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8efb0046019a47fbb9cc63211fb9281c = $(`<div id="html_8efb0046019a47fbb9cc63211fb9281c" style="width: 100.0%; height: 100.0%;">NVIDIA GeForce||NVIDIA||Intel Gaming||</div>`)[0];
+                popup_5169af55e5174c40babf496396012398.setContent(html_8efb0046019a47fbb9cc63211fb9281c);
+            
+
+            marker_dd5c85687a3145c095182f67200ecefd.bindPopup(popup_5169af55e5174c40babf496396012398)
+            ;
+
+            
+        
+    
+        var marker_0019f17283054bd0ab02f26abf4ca66e = L.marker(
+            [30.268189569091795, -97.74238858642578],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_c4854b6c33254ba3b3d70c04fb63c3e8 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0019f17283054bd0ab02f26abf4ca66e.setIcon(icon_c4854b6c33254ba3b3d70c04fb63c3e8);
+            
+    
+            var popup_b2ef47b6363942d2b179d7e4a370fa5f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_372b9eb8e8db41e3a68295059a19501a = $(`<div id="html_372b9eb8e8db41e3a68295059a19501a" style="width: 100.0%; height: 100.0%;">AMD||AMDGaming||</div>`)[0];
+                popup_b2ef47b6363942d2b179d7e4a370fa5f.setContent(html_372b9eb8e8db41e3a68295059a19501a);
+            
+
+            marker_0019f17283054bd0ab02f26abf4ca66e.bindPopup(popup_b2ef47b6363942d2b179d7e4a370fa5f)
+            ;
+
+            
+        
+    
+        var marker_34edf8bbe11f4f5384f8b0af398e9573 = L.marker(
+            [33.709768298339846, -117.94993018798829],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_df773e6568c341798565bf4e968abe76 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34edf8bbe11f4f5384f8b0af398e9573.setIcon(icon_df773e6568c341798565bf4e968abe76);
+            
+    
+            var popup_cd1224e1fbc44d54bb1a97d1e20f6f57 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_405c36896a414ee0824d899039096406 = $(`<div id="html_405c36896a414ee0824d899039096406" style="width: 100.0%; height: 100.0%;">HyperX||</div>`)[0];
+                popup_cd1224e1fbc44d54bb1a97d1e20f6f57.setContent(html_405c36896a414ee0824d899039096406);
+            
+
+            marker_34edf8bbe11f4f5384f8b0af398e9573.bindPopup(popup_cd1224e1fbc44d54bb1a97d1e20f6f57)
+            ;
+
+            
+        
+    
+        var marker_434d53ff38ff47fa9d7ce2693b78b94e = L.marker(
+            [37.25590025024414, -119.61672319335938],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_a0a8aa8ad2f847618a2fc7a7e639712f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_434d53ff38ff47fa9d7ce2693b78b94e.setIcon(icon_a0a8aa8ad2f847618a2fc7a7e639712f);
+            
+    
+            var popup_75e7782336f3490aaa74d16c29ee2435 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_91f7531c175e4add9358a1209c1e0df1 = $(`<div id="html_91f7531c175e4add9358a1209c1e0df1" style="width: 100.0%; height: 100.0%;">CORSAIR||</div>`)[0];
+                popup_75e7782336f3490aaa74d16c29ee2435.setContent(html_91f7531c175e4add9358a1209c1e0df1);
+            
+
+            marker_434d53ff38ff47fa9d7ce2693b78b94e.bindPopup(popup_75e7782336f3490aaa74d16c29ee2435)
+            ;
+
+            
+        
+    
+        var marker_b65b530289604d46a42d3021961c5ee6 = L.marker(
+            [39.78132984008789, 16.322040289306642],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4f8d66a940984182a6ce6eef93d7ef0f);
+        
+    
+
+                var icon_4fb65c3a03df44a89a25c4bde62ff486 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b65b530289604d46a42d3021961c5ee6.setIcon(icon_4fb65c3a03df44a89a25c4bde62ff486);
+            
+    
+            var popup_899244ea48d0480c8df46a3cabd5ce03 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d7e67f8860841c09b9911792be17069 = $(`<div id="html_0d7e67f8860841c09b9911792be17069" style="width: 100.0%; height: 100.0%;">ESL||</div>`)[0];
+                popup_899244ea48d0480c8df46a3cabd5ce03.setContent(html_0d7e67f8860841c09b9911792be17069);
+            
+
+            marker_b65b530289604d46a42d3021961c5ee6.bindPopup(popup_899244ea48d0480c8df46a3cabd5ce03)
+            ;
+
+            
+        
+</script>

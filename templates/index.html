@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Register for domain</h1>
+<form action="/register" method="post">
+    <input name="domain" placeholder="Domain" type="text"/>
+
+    <input type="submit" value="Register"/>
+</form>
+{% endblock %}
